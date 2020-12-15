@@ -64,7 +64,6 @@ client.on("message", (message) => {
     message.reply(":x: || Hubo un error al ejecutar ese comando!");
   }
 });
-
 client
   .login(token)
   .then(() => {
